@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <p>sem o required</p>
+    <h3>Encontre no Google</h3>
+    <form action="https://www.google.com/search" method="get">
+        <label for="query">O que deseja pesquisar?</label>
+        <input id="query" type="text" name="q" placeholder="Nasa,Spacex,etc..">
+        <input type="submit" value="Pesquiar">
+    </form>
+</body>
+</html>
+
+<hr>
+
+<html>
+  <head>
+  </head>
+  <body>
+      <p>Com validação</p>
+    <h3>Encontre no Google</h3>
+    <form action="https://www.google.com/search" method="get">
+      <label for="query">O que deseja pesquisar?</label>
+      <input id="query" type="text" name="q" placeholder="Nasa,Spacex,etc.."required >
+
+      <input type="submit" value="Pesquisar" />
+    </form>
+  </body>
+</html>
+<hr>
+
+<html>
+  <head>
+  </head>
+  <body>
+      <p>Com validação type =email</p>
+    <h3>Encontre no Google</h3>
+    <form action="https://www.google.com/search" method="get">
+      <label for="query">O que deseja pesquisar?</label>
+      <input id="query" type="email" name="q" placeholder="Nasa,Spacex,etc.."required >
+
+      <input type="submit" value="Pesquisar" />
+    </form>
+  </body>
+</html>
+
+<hr>
+
+
+<html>
+  <head>
+  </head>
+  <body>
+      <p>Com validação type =number com minimo e maximo </p>
+    <h3>Encontre no Google</h3>
+    <form action="https://www.google.com/search" method="get">
+      <label for="query">O que deseja pesquisar?</label>
+      <input id="query" type="number" name="q" placeholder="1,2,3,4,etc.." min=1"0" max="10" required >
+
+      <input type="submit" value="Pesquisar" />
+    </form>
+  </body>
+</html>
